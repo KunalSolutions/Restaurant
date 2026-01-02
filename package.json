@@ -1,0 +1,27 @@
+{
+  "name": "restuarant",
+  "version": "1.0.0",
+  "description": "\"# Restaurant\"",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "npm run dev --prefix frontend",
+    "backend": "npm run dev --prefix backend",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "build": "npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KunalSolutions/Restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KunalSolutions/Restaurant/issues"
+  },
+  "homepage": "https://github.com/KunalSolutions/Restaurant#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
